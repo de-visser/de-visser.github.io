@@ -30,7 +30,7 @@ else if (d>9 && d<100){
     document.getElementById("timer")
       .innerHTML =
         '<div>' + d + '</div>' 
-    console.log("ass");
+    console.log("test");
     document.getElementById("timer").style.fontSize = '550%';
     document.getElementById("timer").style.marginTop= '-47.5%';
     document.getElementById("timer").style.marginLeft= '54.8%';
