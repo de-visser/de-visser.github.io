@@ -1,12 +1,14 @@
 body{
     position: relative;
+    overflow-x:hidden;
+    overflow-y:hidden;
 
 }
 .text-wrapper{
     position:relative;
     transform: rotate(-5deg);
-    margin-top: -41%;
-    margin-left: 41.7%;
+    margin-top: -53.4%;
+    margin-left: 56%;
     color: black;
     font-size: 400%;
     
