@@ -1,0 +1,13 @@
+body{
+    position: relative;
+
+}
+.text-wrapper{
+    position:relative;
+    transform: rotate(-5deg);
+    margin-top: -41%;
+    margin-left: 41.7%;
+    color: black;
+    font-size: 400%;
+    
+}
