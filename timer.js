@@ -6,7 +6,7 @@ console.log(size);
 function updateTimer() {
 
 	// yyyy-MM-dd HH:mm:ss
-  past  = Date.parse("2022-12-5 8:30:00");
+  past  = Date.parse("2022-12-7 15:30:00");
   now     = new Date();
   diff    = now - past;
 
