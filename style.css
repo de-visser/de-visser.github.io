@@ -1,9 +1,17 @@
+*
+{
+ margin:0;   
+ padding:0;
+}
+
 body{
     position: absolute;
     overflow-x:hidden;
     overflow-y:hidden;
-
+    vertical-align: top;
+    padding:none
 }
+
 #timer {
     font-family: Arial, Helvetica, sans-serif;
     position:relative;
