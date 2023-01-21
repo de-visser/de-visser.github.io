@@ -19,7 +19,7 @@ function updateTimer() {
   h = hours  - days   * 24;
   m = mins   - hours  * 60;
   s = secs   - mins   * 60;
-  if (d<9){
+  if (d<=9){
     document.getElementById("timer")
     .innerHTML =
       '<div>' + d + '</div>' 
@@ -37,7 +37,7 @@ else if (d>9 && d<100){
     document.getElementById("timer").style.fontWeight= 'bolder';
   }
 
-  else if (d>100){
+  else if (d>=100){
     document.getElementById("timer")
       .innerHTML =
         '<div>' + d + '</div>' 
